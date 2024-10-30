@@ -1,0 +1,42 @@
+.cfwa-container {
+	background-color: #fff;
+	margin-right: 14px;
+	padding: 20px;
+}
+
+body.settings_page_cf_web_analytics .notice {
+	margin: 10px 12px 0 0;
+}
+
+@media screen and (min-width: 782px) {
+	.cfwa-container { 
+		margin-right: 24px;
+	}
+
+	body.settings_page_cf_web_analytics .notice {
+		margin: 5px 23px 2px 0;
+	}
+}
+
+.cfwa-container form > h2 {
+	font-size: 1em;
+}
+
+.cfwa-container summary {
+	color: #2271b1;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.cfwa-container details summary ~ h3 {
+	margin-top: 25px;
+}
+
+.cfwa-container .example {
+	margin-bottom: 10px;
+}
+.cfwa-container .details-inner {
+	padding: 25px;
+	display: block;
+	margin: 25px 0;
+}
